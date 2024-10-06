@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#myid{
+    background-color: aqua;
+    font-size: 30px;
+}
+#myid2{
+    background-color: blue;
+    font-size: 25px;
+}
+.myclass {
+    color: red;
+}
+.myclass2{
+    color: yellow;
+    font-size: 25px;
+}
+div~p{
+    background-color: pink;
+    font-size: 40px;
+}

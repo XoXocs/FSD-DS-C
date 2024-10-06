@@ -1,0 +1,25 @@
+*{
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    
+    .fcontainer{
+        display:grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+   .fitem{
+    background-color: aqua;
+    padding: 10px;
+    border: 3px solid red;
+   }
+ 
+}
+.navbar,
+.footer,
+.copyright{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
