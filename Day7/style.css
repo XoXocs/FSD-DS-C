@@ -1,0 +1,53 @@
+
+h1 {
+    font-size: 2.5rem;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000; 
+    font-size: 1.2rem;
+}
+
+.top a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
